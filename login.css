@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    width: 70%;
+}
+
+input[type=text],
+input[type=password] {
+
+    padding: 14px 5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    width: 80%;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 99%;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.lbl {
+    width: auto;
+    padding: 11px 11px;
+    margin: 5px 0 22px 0;
+    background-color: #36f495;
+    font-weight: bolder;
+}
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}

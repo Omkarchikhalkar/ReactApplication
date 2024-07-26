@@ -1,0 +1,105 @@
+/* body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #7e7979;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a  {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(9, 0, 0);
+    display: block;
+  }
+
+  .sidenav a:hover {
+    /* color: #f1f1f1;
+    background-color: black; 
+    color: #f1f1f1;
+    background-color: black;
+  }
+
+  .main {
+    /* margin-left: 120px; /* Same as the width of the sidenav */
+    /* font-size: 14px; Increased text to enable scrolling 
+    padding: 0px 10px;
+  }
+
+  h1 {
+     color: #165a72;
+     margin: 50px auto;
+     font-size: 40px;
+}
+.menu1 {
+     margin-bottom: 40px;
+     margin-top: 20px;
+     text-align: center;
+}
+h2 {
+     color: #165a72;
+}
+    
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } */
+
+
+
+
+.sidenav {
+    background: #7e7979;
+    height: 100%;
+    /* width: 160px; */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 0px;
+    
+}
+
+.sidenav li  {
+  padding: 6px 8px 2px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(9, 0, 0);
+  display: block;
+}
+
+.sidenav li:hover {
+  color:red;
+  background-color: #d5d3d3; 
+}
+
+.menuItem {
+
+  overflow-x: hidden;
+}
+
+
+h1 {
+    color: #165a72;
+    margin: 50px auto;
+    font-size: 40px;
+}
+.menu1 {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    
+}
+h2 {
+    color: #165a72;
+}
+
